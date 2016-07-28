@@ -16,6 +16,7 @@
 		3FE08D831D4A04DC00D17DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE08D811D4A04DC00D17DDC /* LaunchScreen.storyboard */; };
 		3FE08D8E1D4A04DC00D17DDC /* tempTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE08D8D1D4A04DC00D17DDC /* tempTests.m */; };
 		3FE08D991D4A04DC00D17DDC /* tempUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE08D981D4A04DC00D17DDC /* tempUITests.m */; };
+		3FE08DA81D4A08D000D17DDC /* WFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE08DA71D4A08D000D17DDC /* WFView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		3FE08D941D4A04DC00D17DDC /* tempUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tempUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE08D981D4A04DC00D17DDC /* tempUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tempUITests.m; sourceTree = "<group>"; };
 		3FE08D9A1D4A04DC00D17DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE08DA61D4A08D000D17DDC /* WFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFView.h; sourceTree = "<group>"; };
+		3FE08DA71D4A08D000D17DDC /* WFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				3FE08D7A1D4A04DC00D17DDC /* ViewController.m */,
 				3F06DDC51D4A0809000E1749 /* XFView.h */,
 				3F06DDC61D4A0809000E1749 /* XFView.m */,
+				3FE08DA61D4A08D000D17DDC /* WFView.h */,
+				3FE08DA71D4A08D000D17DDC /* WFView.m */,
 				3FE08D7C1D4A04DC00D17DDC /* Main.storyboard */,
 				3FE08D7F1D4A04DC00D17DDC /* Assets.xcassets */,
 				3FE08D811D4A04DC00D17DDC /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 				3FE08D7B1D4A04DC00D17DDC /* ViewController.m in Sources */,
 				3FE08D781D4A04DC00D17DDC /* AppDelegate.m in Sources */,
 				3FE08D751D4A04DC00D17DDC /* main.m in Sources */,
+				3FE08DA81D4A08D000D17DDC /* WFView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F06DDC71D4A0809000E1749 /* XFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F06DDC61D4A0809000E1749 /* XFView.m */; settings = {ASSET_TAGS = (); }; };
 		3FE08D751D4A04DC00D17DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE08D741D4A04DC00D17DDC /* main.m */; };
 		3FE08D781D4A04DC00D17DDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE08D771D4A04DC00D17DDC /* AppDelegate.m */; };
 		3FE08D7B1D4A04DC00D17DDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE08D7A1D4A04DC00D17DDC /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F06DDC51D4A0809000E1749 /* XFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFView.h; sourceTree = "<group>"; };
+		3F06DDC61D4A0809000E1749 /* XFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFView.m; sourceTree = "<group>"; };
 		3FE08D701D4A04DC00D17DDC /* temp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = temp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE08D741D4A04DC00D17DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FE08D761D4A04DC00D17DDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				3FE08D771D4A04DC00D17DDC /* AppDelegate.m */,
 				3FE08D791D4A04DC00D17DDC /* ViewController.h */,
 				3FE08D7A1D4A04DC00D17DDC /* ViewController.m */,
+				3F06DDC51D4A0809000E1749 /* XFView.h */,
+				3F06DDC61D4A0809000E1749 /* XFView.m */,
 				3FE08D7C1D4A04DC00D17DDC /* Main.storyboard */,
 				3FE08D7F1D4A04DC00D17DDC /* Assets.xcassets */,
 				3FE08D811D4A04DC00D17DDC /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F06DDC71D4A0809000E1749 /* XFView.m in Sources */,
 				3FE08D7B1D4A04DC00D17DDC /* ViewController.m in Sources */,
 				3FE08D781D4A04DC00D17DDC /* AppDelegate.m in Sources */,
 				3FE08D751D4A04DC00D17DDC /* main.m in Sources */,
@@ -498,6 +504,7 @@
 				3FE08D9F1D4A04DC00D17DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FE08DA01D4A04DC00D17DDC /* Build configuration list for PBXNativeTarget "tempTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				3FE08DA21D4A04DC00D17DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FE08DA31D4A04DC00D17DDC /* Build configuration list for PBXNativeTarget "tempUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				3FE08DA51D4A04DC00D17DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
